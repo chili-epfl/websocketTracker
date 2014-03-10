@@ -1,17 +1,44 @@
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Tinkerweb</title>
     </head>
-    <body>
-        <div>
-            Message to send: <input type="text" id="messageInput"></input>
+    <body>        
+        <div id="debugPanel" style="display:none">
+            <div id="messages" class="debug">
+                <!--h3>sent</h3>
+                <div id="sent" style="width:800px;float:left"></div>      
+                <div style="clear:both"></div-->
+                <p>last message</p>
+                <div id="received"></div>
+                <div style="clear:both"></div>
+                <p>tags</p>
+                <div id="tags"></div>
+                <div style="clear:both"></div>
+                <p>calib info</p>
+                <div id="calibration"></div>
+                <div style="clear:both"></div>
+            </div>
+            <!--div>
+                Message to send: <input type="text" id="messageInput"></input>
+            </div-->
+            <div>
+                <button id="sendMessage" style="float:right">Send</button>
+            </div>
+            <div>
+                <button id="calibrate" style="float:right">Calibrate</button>
+            </div>
+
         </div>
-        <div>
-            <button id="sendMessage">Send</button>
-        </div>
-        <div id="serverMessages">
-        </div>
+        <div id="container"></div>
+        <!--a href="#" onclick="$('#debugPanel').toggle()">Toggle debug</a-->
         <script src="lib/jquery.min.js"></script>
+        <script src="lib/three.js"></script>
+        <script src="js/keybindings.js"></script>
+        <script src="js/coordinatemapper.js"></script>
+        <script src="js/rendering.js"></script>
         <script src="js/websocket.js"></script>
     </body>
 </html>
+
+

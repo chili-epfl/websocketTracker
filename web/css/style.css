@@ -1,0 +1,35 @@
+.debug div, .debug p {
+    font-size:8pt;
+    float:left;
+    margin:0;
+}
+
+.debug div {
+    width:1180px;
+}
+
+.debug p {
+    font-weight: bold;
+    width: 100px;
+}
+
+#container, #debugPanel {
+    width:1278px;
+    float:left;
+}
+
+#container {
+    height:766; 
+    border:1px solid gray;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+}
+
+div, p, span {
+    margin:0;
+    padding: 0;
+}
