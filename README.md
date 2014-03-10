@@ -12,7 +12,7 @@ Use this architecture to develop web applications on the Tinkerlamp, using the w
 In the cpp directory:
 - mkdir build
 - cd build
-- cmake ../src
+- cmake ../cpp/src
 - make
 - ./bin/server
 
