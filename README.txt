@@ -1,5 +1,7 @@
-Make sure you have the latestet boost:
+Make sure you have the latest boost (or at least 1.48 or newer):
 sudo apt-get install libboost1.48-all-dev
+
+Install the websocketpp library from https://github.com/zaphoyd/websocketpp.
 
 Install google chrome:
 
